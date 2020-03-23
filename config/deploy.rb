@@ -5,7 +5,7 @@ set :application, "rails_review"
 set :repo_url, "git@github.com:jomno/rails_review.git"
 set :keep_releases, 4
 
-append :linked_files, "config/master.key" # , "db/production.sqlite3"
+append :linked_files, "config/master.key", "db/production.sqlite3"
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "vendor/bundle", "public/system", "public/uploads"
 
 # Default branch is :master
